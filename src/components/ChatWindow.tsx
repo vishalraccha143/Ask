@@ -146,7 +146,7 @@ export default function ChatWindow({
           <span style={{ display: 'block', width: 18, height: 2, background: '#666', borderRadius: 2 }} />
         </button>
 
-        <h1 style={{ margin: 0, fontSize: 16, fontWeight: 700, color: '#eee', flex: 1 }}>Osama</h1>
+        <h1 style={{ margin: 0, fontSize: 16, fontWeight: 700, color: '#eee', flex: 1 }}>Ask</h1>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           <ModelSelector provider={provider} model={model} onProviderChange={onProviderChange} onModelChange={onModelChange} />
